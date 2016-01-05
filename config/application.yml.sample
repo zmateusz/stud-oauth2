@@ -1,0 +1,5 @@
+# Usage:
+# ENV["github_id"]
+
+github_id: ""
+github_secret: ""
