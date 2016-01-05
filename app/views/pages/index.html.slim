@@ -2,3 +2,5 @@ h1 Pages#index
 
 a[href="https://github.com/login/oauth/authorize?client_id=#{@id}&scope=user:email"]
   |Login
+
+= link_to 'Logout', pages_logout_path if session[:access_token]
